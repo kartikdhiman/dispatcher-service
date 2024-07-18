@@ -1,4 +1,4 @@
 package com.example.dispatcherservice;
 
-public record OrderDispatchedMessage(Long id) {
+public record OrderDispatchedMessage(Long orderId) {
 }
